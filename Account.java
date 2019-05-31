@@ -21,7 +21,7 @@
  public void deposit(double depositAmount) {
      if (depositAmount > 0.0) { // if the depositAmount is valid
          balance = balance + depositAmount; // add it to the balance
-     } // class end here
+     }
      }
 
  // method returns the account balance
@@ -56,5 +56,5 @@
              Account semicolon = new Account("tolani",20000);
              System.out.println(semicolon.withdraw(10000));
          }
-     }
+     } // ends
     
